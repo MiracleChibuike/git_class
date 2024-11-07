@@ -243,6 +243,50 @@ h1{
     background: var(--whitesmoke);
     padding: 10px;
 }
+h5{
+    justify-content: center;
+    font-weight: bold;
+    display: flex;
+    padding: 10px;
+    font-size: 40px;
+    color: var(--black);
+}
+.parent_image{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(150, 132, 132);
+    padding: 10px;
+}
+@media screen and (min-width: 0) and (max-width: 750px) {
+    .parent_image{
+        display: block;
+    }
+}
+.parent_image div:hover{
+    cursor: pointer;
+    transition: .4 ease;
+   transform: scale(1.2);
+}
+#image20{
+    width: 200px;
+    padding: 10px;
+    border-radius: 15px;
+}
+#image10{
+    width: 300px;
+    padding: 10px;
+    border-radius: 15px;
+}
+#image30{
+    width: 200px;
+    padding: 10px;
+    border-radius: 15px;
+}
+#image40{
+    width: 200px;
+    padding: 10px;
+    border-radius: 15px;
+}
 
 /* Media Querry */
 @media screen and (min-width: 0) and (max-width: 750px) {
