@@ -213,9 +213,9 @@ font-size: 35px;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
 }
-h2{
+h1{
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 3rem;
 }
 .all span{
     font-size: 1.3rem;
@@ -229,6 +229,12 @@ h2{
 .boxes{
     box-shadow:0 0 2px var(--black);
     padding: 10px;
+    border-radius: 10px;
+}
+.boxes:hover{
+    cursor: pointer;
+    transition: 2s ease-in-out;
+    transform: rotate(-10deg);
 }
 .icons{
     text-align: center;
