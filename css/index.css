@@ -185,11 +185,11 @@ font-size: 35px;
 .web_Icons{
     margin: 35px 0;
 }
-.web_Icons i{
+#icon-fr{
     padding: 10px;
     font-size: 20px;
 }
-.web_Icons i:hover{
+#icon-fr:hover{
     cursor: pointer;
     background: var(--black_clr);
     transition: .3s;
@@ -233,7 +233,7 @@ h2{
 .icons{
     text-align: center;
 }
-i{
+.boxes i{
     background: var(--whitesmoke);
     padding: 10px;
 }
