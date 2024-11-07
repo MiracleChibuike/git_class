@@ -287,6 +287,113 @@ h5{
     padding: 10px;
     border-radius: 15px;
 }
+.contact_section{
+    background: lightgrey;
+    padding: 80px;
+    
+    
+}
+.contact_section h1{
+    font-size: 40px;
+    color: red;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+}
+.contacts_container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+    padding: 40px;
+    color:black
+    
+
+}
+.contacts i{
+    font-size: 30px;
+    color: red;
+    padding: 10px 10px;
+}
+.contact_icons{
+    font-size: 30px;
+    color: white;
+    
+}
+.contact_icons i{
+    margin: 0 15px;
+}
+#but{
+    background: red;
+    color: white;
+    height: 50px;
+    width: 150px;
+}
+/* styling for form container */
+/* #form_container{
+    
+} */
+#name, #emails{
+    border: 2px solid red;
+    border-radius: 10px;
+    height: 60px;
+    width: 400px;
+    margin: 20px 0;
+    
+}
+#readonly{
+    border: 2px solid black;
+    border-radius: 30px;
+    outline: green;
+}
+#textarea{
+    border: 1px solid red;
+    border-radius: 20px;
+}
+.bat{
+    padding: 15px 10px;
+    border: none;
+    border-radius: 10px;
+    background: pink;
+}
+.main{
+    background: white;
+}
+.main h1{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: blue;
+    
+}
+.parent{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 10px;
+}
+.parent div{
+    border: 2px solid black;
+    border-radius: 10px;
+    background: lightslategray;
+    margin: 20px;
+    
+
+}
+.parent h2{
+    font-size: 20px;
+    color: brown;
+    display: flex;
+    justify-content: center;
+}
+.parent p{
+    margin: 10px;
+}
+#img{
+    height: 60px ;
+    width: 60px;
+    border-radius: 50px;
+    margin: 10px;
+}
 
 /* Media Querry */
 @media screen and (min-width: 0) and (max-width: 750px) {
