@@ -315,7 +315,7 @@ h5 {
 .contact_icons i {
   margin: 0 15px;
 }
-#but {
+#but{
   background: red;
   color: white;
   height: 50px;
@@ -374,8 +374,9 @@ h5 {
   display: flex;
   justify-content: center;
 }
-.parent p {
-  margin: 10px;
+.parent p{
+    margin: 10px;
+
 }
 #img {
   height: 60px;
